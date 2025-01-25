@@ -36,14 +36,3 @@ for index, comment in enumerate(comments):
 
 
 print(sentiment_by_id)
-
-""" #/ check the accuracy
-test_labels = read_comments("./test_labels.csv")
-correct_predictions = 0
-
-for test in test_labels:
-    if sentiment_by_id[test["id"]] == test["label"]:
-        correct_predictions += 1
-
-accuracy = correct_predictions / len(test_labels)
-print(f"Accuracy: {accuracy:.2f}") """
